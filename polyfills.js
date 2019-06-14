@@ -4,6 +4,8 @@ global.Buffer = global.Buffer || require('buffer').Buffer;
 global.atob = global.atob || require('atob');
 global.btoa = global.btoa || require('btoa');
 
+process.browser = true; // to avoid nodejs dependency
+
 require('blob-polyfill');
 
 if (!process.version) {
