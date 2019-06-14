@@ -3,12 +3,16 @@
     "name": "Bhavesh Khandelwal",
     "email": "bhav.khandelwal@gmail.com"
   },
+  "contributors":[{
+    "name": "Willy Martin",
+    "email": "lucky.nowarzz@gmail.com"
+  }],
   "scripts": {
     "updtr": "updtr --save-exact",
     "postinstall": "node ./setup.js"
   },
   "bugs": {
-    "url": "https://github.com/kkbhav/pouchdb-adapters-rn/issues"
+    "url": "https://github.com/nowarzz/pouchdb-adapters-rn/issues"
   },
   "dependencies": {
     "argsarray": "0.0.1",
@@ -63,10 +67,10 @@
   ],
   "license": "MIT",
   "main": "./index.js",
-  "name": "pouchdb-adapters-rn",
+  "name": "@nowarzz/pouchdb-adapters-rn",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kkbhav/pouchdb-adapters-rn.git"
+    "url": "git+https://github.com/nowarzz/pouchdb-adapters-rn.git"
   },
   "standard": {
     "ignore": [
@@ -76,5 +80,5 @@
   "eslintIgnore": [
     "*.json"
   ],
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
